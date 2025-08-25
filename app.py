@@ -3,7 +3,7 @@ import pickle
 from sklearn.metrics.pairwise import cosine_similarity
 
 # === Load hybrid recommender artifacts ===
-with open("hybrid_recommender.pkl", "rb") as f:
+with open("hybrid_recommender_small.pkl", "rb") as f:
     artifacts = pickle.load(f)
 
 jobs_df = artifacts["jobs_df"]
